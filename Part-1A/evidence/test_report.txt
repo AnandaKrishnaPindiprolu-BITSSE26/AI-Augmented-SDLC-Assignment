@@ -1,0 +1,39 @@
+Test run
+========
+Time: 2026-11-21T11:26:21
+
+============================= test session starts =============================
+platform win32 -- Python 3.12.7, pytest-7.4.4, pluggy-1.0.0 -- C:\Users\Anand\anaconda3\python.exe
+cachedir: .pytest_cache
+rootdir: E:\AI SDLC Assignment\Part-1A
+plugins: anyio-4.2.0
+collecting ... collected 24 items
+
+tests/test_cli.py::test_cli_create_complete_and_list PASSED              [  4%]
+tests/test_manager.py::test_create_list_and_ids PASSED                   [  8%]
+tests/test_manager.py::test_create_rejects_blank_title PASSED            [ 12%]
+tests/test_manager.py::test_update_task PASSED                           [ 16%]
+tests/test_manager.py::test_invalid_priority_does_not_change_task PASSED [ 20%]
+tests/test_manager.py::test_delete_task PASSED                           [ 25%]
+tests/test_manager.py::test_delete_missing_task PASSED                   [ 29%]
+tests/test_manager.py::test_mark_completed PASSED                        [ 33%]
+tests/test_manager.py::test_filter_by_tag_is_case_insensitive PASSED     [ 37%]
+tests/test_manager.py::test_filter_requires_a_tag PASSED                 [ 41%]
+tests/test_manager.py::test_sort_by_priority PASSED                      [ 45%]
+tests/test_manager.py::test_sort_can_be_saved PASSED                     [ 50%]
+tests/test_manager.py::test_tasks_are_reloaded_from_json PASSED          [ 54%]
+tests/test_storage.py::test_missing_file_starts_empty PASSED             [ 58%]
+tests/test_storage.py::test_empty_file_starts_empty PASSED               [ 62%]
+tests/test_storage.py::test_save_and_load_round_trip PASSED              [ 66%]
+tests/test_storage.py::test_invalid_json PASSED                          [ 70%]
+tests/test_storage.py::test_next_id_moves_past_existing_tasks PASSED     [ 75%]
+tests/test_task.py::test_task_round_trip_drops_duplicate_tags PASSED     [ 79%]
+tests/test_task.py::test_rejects_blank_title PASSED                      [ 83%]
+tests/test_task.py::test_rejects_bad_priority PASSED                     [ 87%]
+tests/test_task.py::test_rejects_bad_status PASSED                       [ 91%]
+tests/test_task.py::test_from_dict_missing_field PASSED                  [ 95%]
+tests/test_task.py::test_rejects_non_numeric_task_id PASSED              [100%]
+
+============================= 24 passed in 0.11s ==============================
+
+Exit code: 0

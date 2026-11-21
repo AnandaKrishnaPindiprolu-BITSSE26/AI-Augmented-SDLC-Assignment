@@ -1,0 +1,15 @@
+Name                    Stmts   Miss  Cover
+-------------------------------------------
+tests\conftest.py          10      1    90%
+tests\test_cli.py          18      1    94%
+tests\test_manager.py      78      1    99%
+tests\test_storage.py      42      1    98%
+tests\test_task.py         30      1    97%
+todo\__init__.py            3      0   100%
+todo\cli.py               104     36    65%
+todo\exceptions.py          1      0   100%
+todo\manager.py            60      0   100%
+todo\storage.py            38      3    92%
+todo\task.py               75      8    89%
+-------------------------------------------
+TOTAL                     459     52    89%
